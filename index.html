@@ -1,106 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Birthday Tribute</title>
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
-    <script src="https://unpkg.com/lucide-react"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <style>
-        body { margin: 0; background-color: #030712; color: #C9A84C; font-family: sans-serif; overflow-x: hidden; }
-        .gold-text { color: #C9A84C; }
-        .border-gold { border-color: rgba(201, 168, 76, 0.3); }
-    </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
-
-    <script type="text/babel">
-        const { useState, useEffect } = React;
-        const { motion, AnimatePresence } = FramerMotion;
-        const { Heart, X, ChevronDown } = lucide;
-
-        // Aapka Personal Config
-        const CONFIG = {
-            name: "Aisha",
-            year: "1999",
-            city: "Lahore",
-            date: "21st April"
-        };
-
-        function App() {
-            const [showContent, setShowContent] = useState(false);
-
-            return (
-                <div className="min-h-screen flex flex-col items-center justify-center p-4">
-                    <AnimatePresence>
-                        {!showContent ? (
-                            <motion.div 
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                exit={{ opacity: 0 }}
-                                className="text-center"
-                            >
-                                <h1 className="text-4xl md:text-6xl font-light tracking-widest mb-8">
-                                    {CONFIG.name.toUpperCase()}
-                                </h1>
-                                <p className="text-sm tracking-widest mb-12 opacity-60">EST. {CONFIG.year} — {CONFIG.city.toUpperCase()}</p>
-                                <button 
-                                    onClick={() => setShowContent(true)}
-                                    className="border border-gold px-8 py-3 text-xs tracking-[0.3em] hover:bg-[#C9A84C] hover:text-black transition-all duration-500"
-                                >
-                                    ENTER THE EXPERIENCE
-                                </button>
-                            </motion.div>
-                        ) : (
-                            <motion.div 
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                className="max-w-2xl w-full text-center"
-                            >
-                                <div className="mb-12">
-                                    <Heart className="mx-auto mb-6 text-[#C9A84C]" size={40} fill="#C9A84C" />
-                                    <h2 className="text-2xl font-light tracking-widest mb-4">HAPPY BIRTHDAY</h2>
-                                    <p className="opacity-80 leading-relaxed italic">
-                                        "In the quiet corners of the universe, some souls shine a little brighter. 
-                                        Today is a celebration of that light."
-                                    </p>
-                                </div>
-                                
-                                <div className="grid grid-cols-1 gap-6 text-left border-t border-gold pt-8">
-                                    <div className="p-4 border border-gold/20">
-                                        <span className="text-[10px] block mb-2 opacity-50 uppercase tracking-tighter">The Occasion</span>
-                                        <p className="text-lg uppercase tracking-widest">{CONFIG.date} Celebration</p>
-                                    </div>
-                                    <div className="p-4 border border-gold/20">
-                                        <span className="text-[10px] block mb-2 opacity-50 uppercase tracking-tighter">The Message</span>
-                                        <p className="text-sm leading-relaxed opacity-90">
-                                            Aisha, you are more than just a person; you are a collection of beautiful moments 
-                                            and infinite possibilities. May this year be as elegant as your spirit.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <button 
-                                    onClick={() => setShowContent(false)}
-                                    className="mt-12 text-[10px] tracking-[0.4em] opacity-40 hover:opacity-100 transition-opacity"
-                                >
-                                    CLOSE WITH LOVE
-                                </button>
-                            </motion.div>
-                        )}
-                    </AnimatePresence>
-                </div>
-            );
-        }
-
-        const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(<App />);
-    </script>
-</body>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
