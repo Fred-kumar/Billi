@@ -15,10 +15,10 @@ import { X, ChevronDown, Heart, Sparkles, Music2 } from "lucide-react";
 
 // ─── ✦  PERSONALIZE HERE  ─────────────────────────────────────────
 const CONFIG = {
-  name:       "Aisha",
-  year:       "1999",
+  name:       "Nahi bataunga",
+  year:       "2002",
   city:       "Noida",
-  date:       "21st April",
+  date:       "24th April",
   musicUrl:   "",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
   noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
 };
@@ -47,6 +47,7 @@ const HISTORICAL_EVENTS = [
   { year: "1498", text: "Vasco da Gama reached India — a world connected forever." },
   { year: "1782", text: "Bangkok was founded, becoming the jewel of Southeast Asia." },
   { year: "1918", text: "The Red Baron flew his last flight across a war-torn sky." },
+  { year: "2000", text: "She born on this day."},
 ];
 
 const TRANSITION_LINE = `But in ${CONFIG.year}, the most important event happened…`;
