@@ -25,23 +25,19 @@ const CONFIG = {
 
 // ─── Optimized Palette for High Visibility ───
 const C = {
-  bg:         "#000000",   // Pure black for maximum contrast
-  bgCard:     "#0A0A0A",   // Slightly lighter black for cards
-  bgDeep:     "#000000",
-  roseGold:   "#FFB7C5",   // Brighter Cherry Blossom Pink (kaafi saaf dikhega)
-  roseLight:  "#FFE4E1",   // Misty Rose (hover ke liye)
-  roseDark:   "#D47079",   // Deep rose borders ke liye
-  champagne:  "#F7E7CE",   // Brighter gold
-  champLight: "#FFF8E7",
-  lavender:   "#E6E6FA",   // Vibrant Lavender
-  lavLight:   "#F3E5F5",
-  cream:      "#FFFFFF",   // Pure white (don't use off-white for main text)
-  muted:      "#C0C0C0",   // Silver (pehle se 40% zyada bright)
-  faint:      "#262626",   // Visible borders
-  fainter:    "#1A1A1A",
-  heartGlow:  "rgba(255,183,197,0.35)", // Stronger glow
+  roseGold: '#FF9DB8',
+  roseLight: '#FFDCE4',
+  roseDark: '#FF6B7A',
+  champagne: '#FFE4B5',
+  champLight: '#FFFACD',
+  lavender: '#E8CCFF',
+  lavLight: '#F5E6FF',
+  cream: '#FFFFFF',
+  muted: '#E0E0E0',
+  faint: '#404040',
+  fainter: '#262626',
+  heartGlow: 'rgba(255,183,197,0.5)'
 };
-
 
 // ─── Historical events ────────────────────────────────────────────
 const HISTORICAL_EVENTS = [
