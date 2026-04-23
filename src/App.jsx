@@ -19,7 +19,7 @@ const CONFIG = {
   year:       "2000",
   city:       "Noida",
   date:       "24th April",
-  musicUrl:   "https://mail.djmusicvibration.co.in/download/1088/jug-jug-jiya-su-lalanwa-sohar-filter-2%402%40-remix-song-d%40j-az%40m-rock.html",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
+  musicUrl:   "https://gaana.com/playlist/subratakhoury-birthdaysongs",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
   noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
 };
 
