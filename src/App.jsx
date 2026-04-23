@@ -25,9 +25,9 @@ const CONFIG = {
 
 // ─── Rose Gold Palette (female psychology: warmth, romance, depth) ─
 const C = {
-  bg:         "#080508",   // near-black with warm plum undertone
-  bgCard:     "#0F090E",
-  bgDeep:     "#060306",
+  bg:         "#0B0B0F",   // slightly clear dark
+  bgCard:     "#14141A",
+  bgDeep:     "#050508",
   roseGold:   "#C9848A",   // primary accent — warm, feminine
   roseLight:  "#E8B4BA",   // hover/highlight
   roseDark:   "#8C4A52",   // deep rose for contrast
