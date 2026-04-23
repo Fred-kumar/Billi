@@ -114,10 +114,10 @@ const CHART_DATA = [
   { label: "Jan",    h: 38 },
   { label: "Feb",    h: 42 },
   { label: "Mar",    h: 40 },
-  { label: "Apr 18", h: 41 },
-  { label: "Apr 20", h: 43 },
+  { label: "Apr 22", h: 41 },
+  { label: "Apr 23", h: 43 },
   { label: `${CONFIG.date} ✦`, h: 999 },
-  { label: "Apr 22", h: 44 },
+  { label: "Apr 25", h: 44 },
   { label: "May",    h: 39 },
 ];
 
