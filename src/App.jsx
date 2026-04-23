@@ -47,7 +47,7 @@ const C = {
 const HISTORICAL_EVENTS = [
   { year: "1898", text: "Spain officially declated war on the United States." },
   { year: "1953", text: "Winston Churchill knighted by Queen Elizabeth ||." },
-  { year: "1973", text: "On this day supereme court of india delivered its most famous verdict (The Kesavananda Bharati Judgement" },
+  { year: "1973", text: "On this day supereme court of india delivered its most famous verdict (The Kesavananda Bharati Judgement)." },
 ];
 
 const TRANSITION_LINE = `But in ${CONFIG.year}, the most important event happened…`;
