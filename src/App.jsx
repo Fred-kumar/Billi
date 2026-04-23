@@ -1196,7 +1196,7 @@ export default function BirthdayTributeV2() {
                       marginBottom: 0,
                     }}>
                       <video
-                        src="earth5.mp4"
+                        src="/earth5.mp4"
                         autoPlay
                         muted
                         loop
