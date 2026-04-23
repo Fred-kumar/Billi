@@ -1257,7 +1257,15 @@ export default function BirthdayTributeV2() {
                           opacity: 0.7,
                           marginBottom: 6,
                         }}>
-                          PLACE GOOGLE EARTH VIDEO HERE
+                          <div style={{ width: "100%", height: "300px", borderRadius: "16px", overflow: "hidden" }}>
+  <iframe
+    src="https://drive.google.com/file/d/1r6r2FfzKX-S6Q7abcIu8WptYEUKhMLhz/preview"
+    width="100%"
+    height="100%"
+    allow="autoplay"
+    style={{ border: "none" }}
+  ></iframe>
+</div>
                         </p>
                         <p style={{
                           fontFamily: "DM Mono, monospace",
