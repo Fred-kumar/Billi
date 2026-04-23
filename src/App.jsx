@@ -28,17 +28,17 @@ const C = {
   bg:         "#0B0B0F",   // slightly clear dark
   bgCard:     "#14141A",
   bgDeep:     "#050508",
-  roseGold:   "#C9848A",   // primary accent — warm, feminine
-  roseLight:  "#E8B4BA",   // hover/highlight
-  roseDark:   "#8C4A52",   // deep rose for contrast
-  champagne:  "#E8C99A",   // secondary gold — celebratory
-  champLight: "#F5E6C8",
-  lavender:   "#C4B0D4",   // tertiary — dreamy
-  lavLight:   "#DDD0EA",
-  cream:      "#F5EEF0",   // text primary
-  muted:      "#9A8A8D",   // text secondary
-  faint:      "#3A2A2E",   // borders
-  fainter:    "#1E1218",   // subtle borders
+  roseGold:   "#E6E4AA",   // primary accent — warm, feminine
+  roseLight:  "#FFC1C7",   // hover/highlight
+  roseDark:   "#B76E79",   // deep rose for contrast
+  champagne:  "#FFDDAA",   // secondary gold — celebratory
+  champLight: "#FFF2D6",
+  lavender:   "#D8C3F0",   // tertiary — dreamy
+  lavLight:   "#EEE4FF",
+  cream:      "#FFFFFF",   // text primary
+  muted:      "#B8B8B8",   // text secondary
+  faint:      "#2A2A35",   // borders
+  fainter:    "#1A1A22",   // subtle borders
   heartGlow:  "rgba(201,132,138,0.28)",
 };
 
