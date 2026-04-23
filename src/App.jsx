@@ -127,8 +127,8 @@ const POEM_LINES = [
 ];
 
 // ─── Hinglish typewriter sentence ────────────────────────────────
-const HINGLISH_TEXT =
-  "Aur is poore universe mein, Noida mein hua wo sabse bada moment... Jab tum aayi.";
+//const HINGLISH_TEXT =
+//  "Aur is poore universe mein, Noida mein hua wo sabse bada moment... Jab tum aayi.";
 
 // ─── Romantic bouquet note ────────────────────────────────────────
 const BOUQUET_NOTE =
@@ -699,7 +699,7 @@ export default function BirthdayTributeV2() {
   }, [heroPhase]);
 
   // ── Noida section intersection observer ──────────────────────
-  useEffect(() => {
+/*  useEffect(() => {
     if (!noidaRef.current) return;
     const obs = new IntersectionObserver(
       ([entry]) => {
@@ -713,7 +713,7 @@ export default function BirthdayTributeV2() {
     );
     obs.observe(noidaRef.current);
     return () => obs.disconnect();
-  }, [showMain]);
+  }, [showMain]);*/
 
   // ── Bouquet derived state ────────────────────────────────────
   const selectedFlowers = FLOWERS.filter((f) => selectedIds.has(f.id));
@@ -1269,7 +1269,7 @@ export default function BirthdayTributeV2() {
                   </Reveal>
 
                   {/* Noida Photo Reveal */}
-                  <AnimatePresence>
+                  <AnimatePresence> 
                     {noidaTrigger && (
                       <motion.div
                         key="noida-photo"
@@ -1290,7 +1290,7 @@ export default function BirthdayTributeV2() {
                           alignItems: "center",
                           justifyContent: "center",
                         }}
-                      >
+                      > 
                         {/* Vignette */}
                         <div style={{
                           position: "absolute", inset: 0,
