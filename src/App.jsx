@@ -25,6 +25,9 @@ const CONFIG = {
 
 // ─── Optimized Palette for High Visibility ───
 const C = {
+  bg: '#000000',
+  bgCard: '#0A0A0A',
+  bgDeep: '#000000',
   roseGold: '#FF9DB8',
   roseLight: '#FFDCE4',
   roseDark: '#FF6B7A',
