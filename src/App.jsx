@@ -19,6 +19,7 @@ const CONFIG = {
   year:       "1999",
   date:       "24th April",
   musicUrl:   "",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
+  videoUrl:   "/earth5.mp4",
 };
 
 // ─── Rose Gold Palette (female psychology: warmth, romance, depth) ─
@@ -1208,6 +1209,9 @@ export default function BirthdayTributeV2() {
                           display: "block",
                         }}
                       />
+                      <source src={CONFIG.videoUrl} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
                     </div>
                   </Reveal>
 
