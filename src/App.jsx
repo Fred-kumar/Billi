@@ -49,7 +49,7 @@ const HISTORICAL_EVENTS = [
   { year: "1973", text: "On this day supereme court of india delivered its most famous verdict (The Kesavananda Bharati Judgement)." },
 ];
 
-const TRANSITION_LINE = `But in ${CONFIG.year}, the most important event happened…`;
+const TRANSITION_LINE = `But in ${CONFIG.year}, the world’s most important event didn't make the headlines. It just started breathing...."`;
 
 // ─── Flowers (bouquet maker) ──────────────────────────────────────
 const FLOWERS = [
