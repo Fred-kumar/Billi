@@ -15,8 +15,8 @@ import { X, ChevronDown, Heart, Sparkles, Music2 } from "lucide-react";
 
 // ─── ✦  PERSONALIZE HERE  ─────────────────────────────────────────
 const CONFIG = {
-  name:       "Aisha",
-  year:       "1999",
+  name:       "Anukriti",
+  year:       "2000",
   city:       "Noida",
   date:       "24th April",
   musicUrl:   "https://mail.djmusicvibration.co.in/download/1088/jug-jug-jiya-su-lalanwa-sohar-filter-2%402%40-remix-song-d%40j-az%40m-rock.html",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
@@ -114,10 +114,10 @@ const CHART_DATA = [
   { label: "Jan",    h: 38 },
   { label: "Feb",    h: 42 },
   { label: "Mar",    h: 40 },
-  { label: "Apr 18", h: 41 },
-  { label: "Apr 20", h: 43 },
+  { label: "Apr 22", h: 41 },
+  { label: "Apr 23", h: 43 },
   { label: `${CONFIG.date} ✦`, h: 999 },
-  { label: "Apr 22", h: 44 },
+  { label: "Apr 25", h: 44 },
   { label: "May",    h: 39 },
 ];
 
