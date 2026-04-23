@@ -23,7 +23,6 @@ const CONFIG = {
   noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
 };
 
-// ─── Rose Gold Palette (female psychology: warmth, romance, depth) ─
 // ─── Optimized Palette for High Visibility ───
 const C = {
   bg:         "#000000",   // Pure black for maximum contrast
