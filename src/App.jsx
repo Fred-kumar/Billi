@@ -15,7 +15,7 @@ import { X, ChevronDown, Heart, Sparkles, Music2 } from "lucide-react";
 
 // ─── ✦  PERSONALIZE HERE  ─────────────────────────────────────────
 const CONFIG = {
-  name:       "Nahi bataunga",
+  name:       "Billi",
   year:       "2002",
   city:       "Noida",
   date:       "24th April",
@@ -1611,7 +1611,7 @@ export default function BirthdayTributeV2() {
                       letterSpacing: "-0.015em",
                       marginBottom: 14,
                     }}>
-                      The Economics of Her
+                      The Economics of Billi
                     </h2>
                     <p style={{
                       fontFamily: "Cormorant Garamond, Georgia, serif",
@@ -1681,7 +1681,7 @@ export default function BirthdayTributeV2() {
                       lineHeight: 1.95,
                     }}>
                       In a world of variables, constants, and predictable distributions —
-                      she remains the ultimate outlier. The anomaly that shatters every model,
+                      you are the ultimate outlier. The anomaly that shatters every model,
                       every regression, every carefully-drawn curve back to the mean.
                     </p>
                     <div style={{
