@@ -18,8 +18,8 @@ const CONFIG = {
   name:       "Aisha",
   year:       "1999",
   city:       "Noida",
-  date:       "21st April",
-  musicUrl:   "",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
+  date:       "24th April",
+  musicUrl:   "https://mail.djmusicvibration.co.in/download/1088/jug-jug-jiya-su-lalanwa-sohar-filter-2%402%40-remix-song-d%40j-az%40m-rock.html",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
   noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
 };
 
