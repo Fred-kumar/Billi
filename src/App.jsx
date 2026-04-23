@@ -15,10 +15,10 @@ import { X, ChevronDown, Heart, Sparkles, Music2 } from "lucide-react";
 
 // ─── ✦  PERSONALIZE HERE  ─────────────────────────────────────────
 const CONFIG = {
-  name:       "Aisha",
-  year:       "1999",
-  city:       "Noida",
-  date:       "21st April",
+  name:       "Anushka",
+  year:       "2002",
+  city:       "Gopalganj",
+  date:       "24th April",
   musicUrl:   "",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
   noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
 };
@@ -44,9 +44,9 @@ const C = {
 
 // ─── Historical events ────────────────────────────────────────────
 const HISTORICAL_EVENTS = [
-  { year: "1498", text: "Vasco da Gama reached India — a world connected forever." },
-  { year: "1782", text: "Bangkok was founded, becoming the jewel of Southeast Asia." },
-  { year: "1918", text: "The Red Baron flew his last flight across a war-torn sky." },
+  { year: "1898", text: "Spain officially declated war on the United States." },
+  { year: "1898", text: "Winston Churchill knighted by Queen Elizabeth ||." },
+  { year: "1973", text: "On this day supereme court of india delivered its most famous verdict (The Kesavananda Bharati Judgement" },
 ];
 
 const TRANSITION_LINE = `But in ${CONFIG.year}, the most important event happened…`;
@@ -95,7 +95,7 @@ const FLOWERS = [
     name: "Wild Lavender",
     note: "Dreams pressed into petals, peace carried in fragrance.",
     accentColor: C.lavLight,
-    glowColor: "rgba(221,208,234,0.28)",
+    glowColor: "rgba(2`,208,234,0.28)",
     bg: "#0A0810",
   },
   {
@@ -1580,7 +1580,7 @@ export default function BirthdayTributeV2() {
               </section>
 
               {/* ──────────────────────────────────────────────────
-                  §3 — THE ECONOMICS OF HER
+                  §3 — THE ECONOMICS OF BILLI
               ─────────────────────────────────────────────────── */}
               <section style={{
                 minHeight: "100vh",
@@ -1602,7 +1602,7 @@ export default function BirthdayTributeV2() {
                       letterSpacing: "-0.015em",
                       marginBottom: 14,
                     }}>
-                      The Economics of Her
+                      The Economics of Billi
                     </h2>
                     <p style={{
                       fontFamily: "Cormorant Garamond, Georgia, serif",
@@ -1672,7 +1672,7 @@ export default function BirthdayTributeV2() {
                       lineHeight: 1.95,
                     }}>
                       In a world of variables, constants, and predictable distributions —
-                      she remains the ultimate outlier. The anomaly that shatters every model,
+                     you are the ultimate outlier. The anomaly that shatters every model,
                       every regression, every carefully-drawn curve back to the mean.
                     </p>
                     <div style={{
