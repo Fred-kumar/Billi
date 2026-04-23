@@ -130,7 +130,7 @@ const POEM_LINES = [
 ];
 
 // ─── Hinglish typewriter sentence ────────────────────────────────
-//const HINGLISH_TEXT =
+const HINGLISH_TEXT =
 //  "Aur is poore universe mein, Noida mein hua wo sabse bada moment... Jab tum aayi.";
 
 // ─── Romantic bouquet note ────────────────────────────────────────
