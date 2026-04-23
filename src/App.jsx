@@ -591,26 +591,29 @@ export default function BirthdaySurprise() {
                   })}
                 </div>
 
-                {/* Proceed button (floating) */}
-                {totalFlowers > 0 && (
-                  <div className="anim-fadeUp" style={{ textAlign:"center", paddingTop:"1rem" }}>
-                    <button
-                      onClick={() => setBouquetShown(true)}
-                      className="btn-pulse"
-                      style={{
-                        padding:"0.9rem 3rem",
-                        background:"linear-gradient(135deg, #ec4899, #f97316)",
-                        color:"#fff", fontWeight:600, borderRadius:999,
-                        fontSize:"0.72rem", letterSpacing:"0.35em", textTransform:"uppercase",
-                        border:"none", cursor:"pointer", fontFamily:"'DM Sans',sans-serif",
-                        boxShadow:"0 8px 28px rgba(236,72,153,0.4)",
-                      }}
-                    >
-                      💝 Present Bouquet
-                    </button>
-                  </div>
-                )}
-              </>
+    
+                {/* Proceed button (Fixed at bottom for mobile) */}
+{totalFlowers > 0 && (
+  <div style={{ position: "absolute", bottom: "35px", left: 0, width: "100%", display: "flex", justifyContent: "center", zIndex: 100 }}>
+    <div className="anim-fadeUp">
+      <button
+        onClick={() => setBouquetShown(true)}
+        className="btn-pulse"
+        style={{
+          padding:"0.9rem 3rem",
+          background:"linear-gradient(135deg, #ec4899, #f97316)",
+          color:"#fff", fontWeight:600, borderRadius:999,
+          fontSize:"0.72rem", letterSpacing:"0.35em", textTransform:"uppercase",
+          border:"none", cursor:"pointer", fontFamily:"'DM Sans',sans-serif",
+          boxShadow:"0 8px 28px rgba(236,72,153,0.4)",
+        }}
+      >
+        💝 Present Bouquet
+      </button>
+    </div>
+  </div>
+)}
+          </>
             ) : (
               /* ── Bouquet Reveal ── */
               <div style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", gap:"1.5rem", textAlign:"center" }}>
