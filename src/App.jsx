@@ -45,7 +45,7 @@ const C = {
 // ─── Historical events ────────────────────────────────────────────
 const HISTORICAL_EVENTS = [
   { year: "1898", text: "Spain officially declated war on the United States." },
-  { year: "1898", text: "Winston Churchill knighted by Queen Elizabeth ||." },
+  { year: "1953", text: "Winston Churchill knighted by Queen Elizabeth ||." },
   { year: "1973", text: "On this day supereme court of india delivered its most famous verdict (The Kesavananda Bharati Judgement" },
 ];
 
