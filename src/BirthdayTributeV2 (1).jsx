@@ -15,10 +15,10 @@ import { X, ChevronDown, Heart, Sparkles, Music2 } from "lucide-react";
 
 // ─── ✦  PERSONALIZE HERE  ─────────────────────────────────────────
 const CONFIG = {
-  name:       "Aisha",
-  year:       "1999",
+  name:       "Anushka",
+  year:       "2002",
   city:       "Noida",
-  date:       "21st April",
+  date:       "24th April",
   musicUrl:   "",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
   noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
 };
@@ -114,10 +114,10 @@ const CHART_DATA = [
   { label: "Jan",    h: 38 },
   { label: "Feb",    h: 42 },
   { label: "Mar",    h: 40 },
-  { label: "Apr 18", h: 41 },
-  { label: "Apr 20", h: 43 },
+  { label: "Apr 22", h: 41 },
+  { label: "Apr 23", h: 43 },
   { label: `${CONFIG.date} ✦`, h: 999 },
-  { label: "Apr 22", h: 44 },
+  { label: "Apr 25", h: 44 },
   { label: "May",    h: 39 },
 ];
 
