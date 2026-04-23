@@ -20,7 +20,7 @@ const CONFIG = {
   city:       "Noida",
   date:       "24th April",
   musicUrl:   "",   // ← paste an MP3 URL (e.g. from Google Drive direct link)
-  noidaPhoto: "",   // ← paste an image URL for the Noida photo reveal
+  noidaPhoto: "https://drive.google.com/file/d/1r6r2FfzKX-S6Q7abcIu8WptYEUKhMLhz/view?usp=drivesdk",   // ← paste an image URL for the Noida photo reveal
 };
 
 // ─── Rose Gold Palette (female psychology: warmth, romance, depth) ─
