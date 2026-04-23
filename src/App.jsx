@@ -131,7 +131,7 @@ const POEM_LINES = [
 
 // ─── Hinglish typewriter sentence ────────────────────────────────
 const HINGLISH_TEXT =
-//  "Aur is poore universe mein, Noida mein hua wo sabse bada moment... Jab tum aayi.";
+  "Aur is poore universe mein, Noida mein hua wo sabse bada moment... Jab tum aayi.";
 
 // ─── Romantic bouquet note ────────────────────────────────────────
 const BOUQUET_NOTE =
@@ -702,7 +702,7 @@ export default function BirthdayTributeV2() {
   }, [heroPhase]);
 
   // ── Noida section intersection observer ──────────────────────
-/*  useEffect(() => {
+  useEffect(() => {
     if (!noidaRef.current) return;
     const obs = new IntersectionObserver(
       ([entry]) => {
@@ -716,7 +716,7 @@ export default function BirthdayTributeV2() {
     );
     obs.observe(noidaRef.current);
     return () => obs.disconnect();
-  }, [showMain]);*/
+  }, [showMain]);
 
   // ── Bouquet derived state ────────────────────────────────────
   const selectedFlowers = FLOWERS.filter((f) => selectedIds.has(f.id));
@@ -1203,12 +1203,11 @@ export default function BirthdayTributeV2() {
                       marginBottom: 0,
                     }}>
                   <video
-                    autoplay
+                    autoPlay
                     muted
                     loop
-                    playInline
+                    playsInline
                     style={{ width="100%", height="100%", objectFit: "cover" }}
-                    poster="https://your-image-url.jpg" // Optional thumbnail 
                     >
                     <source src="/earth.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
