@@ -1202,6 +1202,19 @@ export default function BirthdayTributeV2() {
                       justifyContent: "center",
                       marginBottom: 0,
                     }}>
+                  <video
+                    autoplay
+                    muted
+                    loop
+                    playInline
+                    style={{ width="100%", height="100%", objectFit: "cover" }}
+                    poster="https://your-image-url.jpg" // Optional thumbnail 
+                    >
+                    <source src="/earth.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                    </div>
+                  </Reveal>
                       {/* Animated stars */}
                       {Array.from({ length: 60 }, (_, i) => (
                         <motion.div
