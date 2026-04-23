@@ -24,23 +24,25 @@ const CONFIG = {
 };
 
 // ─── Rose Gold Palette (female psychology: warmth, romance, depth) ─
+// ─── Optimized Palette for High Visibility ───
 const C = {
-  bg:         "#080508",   // near-black with warm plum undertone
-  bgCard:     "#0F090E",
-  bgDeep:     "#060306",
-  roseGold:   "#C9848A",   // primary accent — warm, feminine
-  roseLight:  "#E8B4BA",   // hover/highlight
-  roseDark:   "#8C4A52",   // deep rose for contrast
-  champagne:  "#E8C99A",   // secondary gold — celebratory
-  champLight: "#F5E6C8",
-  lavender:   "#C4B0D4",   // tertiary — dreamy
-  lavLight:   "#DDD0EA",
-  cream:      "#F5EEF0",   // text primary
-  muted:      "#9A8A8D",   // text secondary
-  faint:      "#3A2A2E",   // borders
-  fainter:    "#1E1218",   // subtle borders
-  heartGlow:  "rgba(201,132,138,0.28)",
+  bg:         "#000000",   // Pure black for maximum contrast
+  bgCard:     "#0A0A0A",   // Slightly lighter black for cards
+  bgDeep:     "#000000",
+  roseGold:   "#FFB7C5",   // Brighter Cherry Blossom Pink (kaafi saaf dikhega)
+  roseLight:  "#FFE4E1",   // Misty Rose (hover ke liye)
+  roseDark:   "#D47079",   // Deep rose borders ke liye
+  champagne:  "#F7E7CE",   // Brighter gold
+  champLight: "#FFF8E7",
+  lavender:   "#E6E6FA",   // Vibrant Lavender
+  lavLight:   "#F3E5F5",
+  cream:      "#FFFFFF",   // Pure white (don't use off-white for main text)
+  muted:      "#C0C0C0",   // Silver (pehle se 40% zyada bright)
+  faint:      "#262626",   // Visible borders
+  fainter:    "#1A1A1A",
+  heartGlow:  "rgba(255,183,197,0.35)", // Stronger glow
 };
+
 
 // ─── Historical events ────────────────────────────────────────────
 const HISTORICAL_EVENTS = [
