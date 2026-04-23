@@ -15,8 +15,8 @@ import { X, ChevronDown, Heart, Sparkles, Music2 } from "lucide-react";
 
 // ─── ✦  PERSONALIZE HERE  ─────────────────────────────────────────
 const CONFIG = {
-  name:       "Aisha",
-  year:       "1999",
+  name:       "Anushka",
+  year:       "2002",
   date:       "24th April",
   musicUrl:   "/music.mp3",   // public folder se
 };
