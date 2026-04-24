@@ -47,7 +47,7 @@ const HISTORICAL_EVENTS = [
   { year: "1973", text: "On this day Supereme Court of India delivered its most famous verdict (keshavanad Bharati Case)." },
 ];
 
-const TRANSITION_LINE = `But in ${CONFIG.year}, the world’s most important event didn't make the headlines. It just started breathing..."`;
+const TRANSITION_LINE = `But in ${CONFIG.year}, the world’s most important event didn't make the headlines. It just started breathing...`;
 
 // ─── Flowers (bouquet maker) ──────────────────────────────────────
 const FLOWERS = [
@@ -1463,7 +1463,7 @@ export default function BirthdayTributeV2() {
 
                 <div style={{ maxWidth: 740, width: "100%", textAlign: "center" }}>
                   <Reveal>
-                    <SectionLabel index={1} text="The Space Journey" />
+                    <SectionLabel index={-} text="The Space Journey" />
                     <h2 style={{
                       fontFamily: "Cormorant Garamond, Georgia, serif",
                       fontSize: "clamp(34px, 6.5vw, 64px)",
