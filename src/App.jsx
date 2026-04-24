@@ -1430,7 +1430,7 @@ export default function BirthdayTributeV2() {
               transition={{ duration: 1.6 }}
             >
               {/* ──────────────────────────────────────────────────
-                  §1 — THE SPACE JOURNEY (Noida)
+                  § — THE SPACE JOURNEY (Noida)
               ─────────────────────────────────────────────────── */}
               <section
                 ref={noidaRef}
