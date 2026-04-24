@@ -1935,7 +1935,7 @@ export default function BirthdayTributeV2() {
                       letterSpacing: "0.28em",
                       opacity: 0.45,
                     }}>
-                      GHAZAL · ROMAN URDU · {CONFIG.date.toUpperCase()}
+                      HAPPY · BIRTHDAY · {CONFIG.name.toUpperCase()}
                     </p>
                   </Reveal>
                 </div>
