@@ -1567,8 +1567,7 @@ export default function BirthdayTributeV2() {
                       color: C.muted,
                       marginBottom: 18,
                     }}>
-                      Asli phool toh 2 din me murjha jaate hai, par ye digital petals hamesha rahenge.
-                      Choose the flowers that speak your heart. Select many, select freely.
+                      Real flowers wither in a couple of days, but these digital petals are forever 😁. Choose the flowers that speak your heart. Select many, select freely.
                     </p>
                     {/* Counter */}
                     <motion.p
