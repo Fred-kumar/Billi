@@ -1968,7 +1968,7 @@ export default function BirthdayTributeV2() {
                         lineHeight: 1.15,
                         marginBottom: 14,
                       }}>
-                        Moments Worth Keeping
+                        Reflections of You
                       </h2>
                       <PetalRule />
                     </div>
@@ -2276,7 +2276,7 @@ export default function BirthdayTributeV2() {
                     opacity: 0.4,
                     marginBottom: 4,
                   }}>
-                    © {new Date().getFullYear()} Birthday Tribute Studio · All Rights Reserved
+                    © {new Date().getFullYear()} Pran Studio · All Rights Reserved
                   </p>
                   <p style={{
                     fontFamily: "DM Mono, monospace",
