@@ -2225,7 +2225,7 @@ export default function BirthdayTributeV2() {
                     color: C.cream,
                     letterSpacing: "0.06em",
                   }}>
-                    Rohit
+                    Prashant
                   </p>
                 </div>
 
@@ -2237,9 +2237,9 @@ export default function BirthdayTributeV2() {
                   justifyContent: "center",
                 }}>
                   {[
-                    { label: "INSTAGRAM", value: "@rohit.dev" },
-                    { label: "EMAIL", value: "rohit@birthday.love" },
-                    { label: "PHONE", value: "+91 98765 43210" },
+                    { label: "INSTAGRAM", value: "@prashant_patel_k" },
+                    { label: "EMAIL", value: "iprashu@yahoo.com" },
+                    { label: "PHONE", value: "+91 95*** **812" },
                   ].map(({ label, value }) => (
                     <div key={label} style={{ textAlign: "center" }}>
                       <p style={{
