@@ -874,7 +874,7 @@ function GiftCardSection() {
                     opacity: 0.6,
                     marginTop: 4,
                   }}>
-                    — tere yaar ki taraf se 🥂
+                    —
                   </p>
                 </motion.div>
               )}
@@ -1745,7 +1745,7 @@ export default function BirthdayTributeV2() {
               </section>
 
               {/* ──────────────────────────────────────────────────
-                  §3 — THE ECONOMICS OF HER
+                  §3 — THE ECONOMICS OF BILLI
               ─────────────────────────────────────────────────── */}
               <section style={{
                 minHeight: "100vh",
@@ -1767,7 +1767,7 @@ export default function BirthdayTributeV2() {
                       letterSpacing: "-0.015em",
                       marginBottom: 14,
                     }}>
-                      The Economics of Her
+                      The Economics of Billi
                     </h2>
                     <p style={{
                       fontFamily: "Cormorant Garamond, Georgia, serif",
@@ -1837,7 +1837,7 @@ export default function BirthdayTributeV2() {
                       lineHeight: 1.95,
                     }}>
                       In a world of variables, constants, and predictable distributions —
-                      she remains the ultimate outlier. The anomaly that shatters every model,
+                      you remains the ultimate outlier. The anomaly that shatters every model,
                       every regression, every carefully-drawn curve back to the mean.
                     </p>
                     <div style={{
