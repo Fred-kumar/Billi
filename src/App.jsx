@@ -42,9 +42,9 @@ const C = {
 
 // ─── Historical events ────────────────────────────────────────────
 const HISTORICAL_EVENTS = [
-  { year: "1498", text: "Vasco da Gama reached India — a world connected forever." },
-  { year: "1782", text: "Bangkok was founded, becoming the jewel of Southeast Asia." },
-  { year: "1918", text: "The Red Baron flew his last flight across a war-torn sky." },
+  { year: "1898", text: "Spain officially declared war on the United States." },
+  { year: "1953", text: "Winston Churchill knighted by Qieen Elizabeth second" },
+  { year: "1973", text: "On this day Supereme Court of India delivered its most famous verdict (keshavanad Bharati Case)." },
 ];
 
 const TRANSITION_LINE = `But in ${CONFIG.year}, the most important event happened…`;
