@@ -1558,7 +1558,7 @@ export default function BirthdayTributeV2() {
                       letterSpacing: "-0.015em",
                       marginBottom: 12,
                     }}>
-                      Build Your Bouquet
+                      Budget-Friendly Bouquet
                     </h2>
                     <p style={{
                       fontFamily: "Cormorant Garamond, Georgia, serif",
@@ -1567,6 +1567,7 @@ export default function BirthdayTributeV2() {
                       color: C.muted,
                       marginBottom: 18,
                     }}>
+                      Asli phool toh 2 din me murjha jaate hai, par ye digital petals hamesha rahenge.
                       Choose the flowers that speak your heart. Select many, select freely.
                     </p>
                     {/* Counter */}
