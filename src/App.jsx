@@ -121,6 +121,7 @@ const CHART_DATA = [
 
 // ─── Ghazal poem ──────────────────────────────────────────────────
 const POEM_LINES = [
+  "Happy Birthday! Today is all about celebrating you and the wonderful person you are. Over the years, I've come to appreciate your kindness, your sense of humor, and the authenticity you bring to every conversation. You have this incredible ability to make people feel heard and valued, and that's truly special. I hope this birthday marks the beginning of your best year yet—filled with exciting opportunities, cherished moments, and dreams coming true. May you find joy in the little things and courage to chase the big things. Thank you for being such a genuine presence in my life, even from afar. Your friendship means more than you know. Here's to you and all the amazing things ahead. Enjoy your special day to the fullest! ",
   "मेरी दुआ है तेरी राहों में फूल खिलें हमेशा,",
   "कोई भी ग़म तेरी मुस्कुराहटों को जुदा न करे।",
   "यौम-ए-पैदाइश पे बस यही माँगते हैं दुआ,",
