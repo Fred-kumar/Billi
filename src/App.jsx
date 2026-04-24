@@ -47,7 +47,7 @@ const HISTORICAL_EVENTS = [
   { year: "1973", text: "On this day Supereme Court of India delivered its most famous verdict (keshavanad Bharati Case)." },
 ];
 
-const TRANSITION_LINE = `But in ${CONFIG.year}, the most important event happened…`;
+const TRANSITION_LINE = `But in ${CONFIG.year}, the world’s most important event didn't make the headlines. It just started breathing..."`;
 
 // ─── Flowers (bouquet maker) ──────────────────────────────────────
 const FLOWERS = [
@@ -121,10 +121,11 @@ const CHART_DATA = [
 
 // ─── Ghazal poem ──────────────────────────────────────────────────
 const POEM_LINES = [
-  "Woh din jab tu aayi, zameen ko mila aasmaan tha,",
-  "Har phool khila, har taara chamka — yeh tera jahaan tha.",
-  "Is duniya ke rang tere bina the pheke pheke,",
-  "Tu jo muskurayi, toh lagaa — yahi to jahaan tha.",
+  "मेरी दुआ है तेरी राहों में फूल खिलें हमेशा,",
+  "कोई भी ग़म तेरी मुस्कुराहटों को जुदा न करे।",
+  "यौम-ए-पैदाइश पे बस यही माँगते हैं दुआ,",
+  "ज़िंदगी भर ये आसमाँ तुझ को,",
+  "किसी आफ़त में मुब्तला न करे।",
 ];
 
 // ─── Hinglish typewriter sentence ────────────────────────────────
